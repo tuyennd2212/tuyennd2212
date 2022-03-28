@@ -1,0 +1,532 @@
+body{
+    display: block;
+    margin: 0px;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.header{
+ 
+    width: 100%;
+    height: 145px;
+    background-color: rgb(235, 116, 61);
+    color: white;
+    position: fixed;
+    top: 0px;
+ 
+}
+.intro{
+    padding: 0px 170px;
+    margin-top: 20px;
+
+}
+.style-intro {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:4px;
+}
+.media{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.icon-header{
+    font-size: 16px;
+}
+.icon-facebook{
+    gap: 10px;
+    display: flex;
+}
+.anh-meo{
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+}
+.body1{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.icon-shoping{
+    font-size: 35px;
+    color:rgb(250, 246, 246);
+}
+.logo-shoppe{
+    display: flex;
+    gap: 10px;
+}
+.cat{
+    display: flex;
+    gap: 10px;
+    margin-top: 6px;
+    
+}
+.search-button{
+    width: 90%;
+    height: 35px;
+   
+}
+.icon-button{
+    color: white;
+    background-color: rgb(235, 116, 61);
+    padding: 8px;
+    border-color: white;
+    height: 41px;
+    width: 60px;
+}
+.icon-search{
+    display: flex;
+}
+.icon-cart{
+    font-size: 25px;
+}
+.pic1{
+    width:764px ;
+    height:230px;
+    
+}
+.pic2{
+    width: 400px;
+    height: 113px;
+   
+}
+.header-content{
+    padding: 0px 170px;
+    display: flex;
+    margin-top:170px;
+    justify-content: space-between;
+    gap: 8px;
+}
+.header-content-2{
+    padding: 0px 170px;
+    display: flex;
+    margin-top:20px;
+    justify-content: space-between;
+    gap: 8px;
+}
+.icon-shoppe{
+    width: 45px;
+    height: 45px;
+    border-radius: 29% ;
+    
+}
+.icon-shoppe2{
+    width: 45px;
+    height: 45px;
+    border-radius: 29%;
+    color: red;
+    font-size: 14px;
+    font-weight: 700;
+}
+.mask{
+    font-size: 20px;
+    color:green;
+}
+.set{
+    font-size: 20px;
+    color: rgb(221, 221, 82);
+}
+.taxi{
+    font-size: 20px;
+    color: red;
+}
+.iphone{
+    font-size: 20px;
+    color: green;
+}
+.money{
+    font-size: 28px;
+    color: rgb(113, 216, 216);
+}
+.header-item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+}
+.category-body{
+    padding: 0px 170px;
+    margin-top: 20px;
+    background-color: rgb(236, 236, 236);
+    padding-top: 40px;
+   padding-bottom: 20px;
+
+
+
+}
+.category-menu{
+    background-color: white;
+    padding-top: 20px;
+    
+}
+.category-title{
+    margin-left: 20px;
+    font-size: 18px;
+    color: rgb(121, 118, 118);
+}
+.category-list{
+    display: grid;
+    grid-template-columns: repeat(10,10%);
+    border: 1px;
+    border-style: solid;
+    border-color:rgb(217, 221, 224) ;
+    margin-top:20px;
+   
+   
+
+}
+.category-icon{
+    border: 1px;
+    border-style: solid;
+    border-color:rgb(217, 221, 224) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0px;
+    
+   
+    
+
+}
+.category-item{
+    text-align: center;
+    margin-top: 10px;
+}
+.category-picture{
+    height: 80px;
+    width: 80px;
+    border-radius: 31%;
+}
+.flash-sale{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.flash-sale-list{
+    display: grid;
+    grid-template-columns: repeat(6,16.66%);
+    margin-top: 20px;
+    gap: 48.5px;
+  
+
+}
+.flash-sale-title{
+    color: coral;
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.flash-sale-picture{
+    height: 200px;
+    width: 200px;
+}
+.flash-sale-text{
+    background-color: rgb(226, 137, 105);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 6px;
+
+}
+.header-durex{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+  
+}
+.picture-durex{
+    width:375px;
+    height: 110px;
+    border-radius: 25px;
+    margin-left: 12px;
+    padding: 0px 0px 10px 0px;
+     
+}
+.shoppe-mall{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.shoppe-mall-title{
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 12px 0px;
+}
+.shoppe-mall-icon{
+    width: 20px;
+    height: 20px;
+
+}
+.shoppe-name{
+    font-size: 20px;
+    
+}
+.shoppe-mall-content{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.shoppe-picture{
+    width: 400px;
+    height: 500px;
+}
+
+.shoppe-mall-list{
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    gap: 20px;
+    border: 1px;
+    border-color: bisque;
+    border-style: solid;
+    border-right: 20px;
+}
+.shoppe-list-picture{
+    width: 160px;
+    height: 160px;
+
+}
+.shoppe-picture-icon{
+   text-align: center;
+
+}
+.button-durex{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color: blue;
+    font-size: 18px;
+    font-weight: 600;
+}
+.shoppe-cat{
+    margin-top: 10px;
+    color: rgb(224, 21, 21);
+    font-size: 16.5px;
+    font-weight: 550;
+}
+
+.picture-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+.button-oppo{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color: rgb(23, 219, 66);
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-clear{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color: rgb(10, 34, 139);
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.button-iphone{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color:rgb(100, 99, 99);
+    font-size: 18px;
+    font-weight: 600;
+
+
+}
+.button-alpha{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color:rgb(10, 34, 139) ;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+.button-anessa{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color: rgb(126, 223, 215) ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.button-fit-me{
+    border-radius: 20px;
+    padding: 4px;
+    width: 120px;
+    height: 35px;
+    background-color: white;
+    color:rgb(99, 77, 77) ;
+    font-size: 18px;
+    font-weight: 600;
+}
+.search-trend{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+
+}
+
+.search-input{
+    color: rgb(119, 115, 115);
+    padding: 0px 0px 20px 30px;
+}
+.dep{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.search-list{
+    display: flex;
+    gap: 14px;
+    
+}
+.search-list-cat{
+    color: rgb(114, 111, 111);
+    margin-top: 5px;
+}
+.search-picture{
+    width: 90px;
+    height: 90px;
+}
+.search-top{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+   
+
+}
+.input-top{
+    font-size: 16px;
+    color: rgb(243, 96, 96);
+    padding: 0px 0px 20px 30px;
+}
+.input-top-2{
+    font-size: 16px;
+    color: rgb(243, 96, 96);
+    padding: 0px 30px 20px 30px;
+
+}
+.search-top-cat{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.search-top-content{
+    display: flex;
+    gap: 12px;
+}
+.search-top-picture{
+    width: 185px;
+    height: 200px;
+}
+.button-top{
+    color: white;
+   background-color: rgb(180, 175, 175);
+   margin-left: 30px;
+   
+
+}
+.top-cat{
+    margin-top: 16px;
+    padding: 0px 20px 20px 20px;
+    font-size: 19px;
+   margin-left: 10px;
+}
+
+
+.shoppe-menu{
+    background-color: white;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.menu-top{
+    display: flex;
+    gap: 60px;
+}
+.menu-top-input{
+    padding: 0px 0px 20px 40px;
+    color: rgb(216, 85, 52);
+    font-size: 18px;
+}
+.button-menu-top{ 
+    margin:0px 0px 24px 60px;
+    color: white;
+    background-color: rgb(216, 85, 52);
+    font-size: 14px;
+    border: 1px;
+}
+.menu-content{ 
+    display: grid;
+    grid-template-columns: repeat(6,15%);
+    border: 1px;
+    border-style: solid;
+    border-color:rgb(217, 221, 224) ;
+    gap: 22px;
+    margin-top: 20px;
+}
+
+    
+   
+
+.menu-content-picture{
+    width: 180px;
+    height: 180px;
+
+}
+.input-picture{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.content-list{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.dollar{
+    color: red;
+    font-size: 18px;
+}
+.dog{
+    color: rgb(145, 143, 143);
+}
+.button-dog{
+    width: 400px;
+    height: 36px;
+    background-color: white;
+    border: 1px;
+    color: rgb(85, 84, 84);
+    font-size: 14px;
+    
+    
+}
+.button-item{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
